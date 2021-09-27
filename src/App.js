@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import CourseList from './components/CourseList'
 import { addScheduleTimes } from './utilities/times';
